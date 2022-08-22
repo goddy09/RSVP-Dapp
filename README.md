@@ -16,6 +16,10 @@ Checkout reach here [https://docs.reach.sh/tut/rps/]
 
 #
 
-fontend demo
+`fontend demo`
 
 ![image](https://user-images.githubusercontent.com/84284739/185916157-cb99e94b-8f0b-4f40-8ce1-55d1a0f0b114.png)
+
+`Connect to Algorand`
+![image](https://user-images.githubusercontent.com/84284739/185916443-4c44b664-9ef8-4add-87fe-658366bf9a03.png)
+#
