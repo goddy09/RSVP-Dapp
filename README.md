@@ -23,3 +23,12 @@ Checkout reach here [https://docs.reach.sh/tut/rps/]
 # # `Connect to Algorand`
 ![image](https://user-images.githubusercontent.com/84284739/185916443-4c44b664-9ef8-4add-87fe-658366bf9a03.png)
 #
+
+# `Add Event`
+![image](https://user-images.githubusercontent.com/84284739/185917306-2a847517-a367-4b42-b8a4-cf4b63d750db.png)
+
+
+# `Remove Event`
+![image](https://user-images.githubusercontent.com/84284739/185917547-ec7d1ef9-2555-475b-8a1c-e7296669cbf2.png)
+
+removing justice tour by cliching red X button
