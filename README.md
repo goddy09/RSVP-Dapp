@@ -31,4 +31,4 @@ Checkout reach here [https://docs.reach.sh/tut/rps/]
 # `Remove Event`
 ![image](https://user-images.githubusercontent.com/84284739/185917547-ec7d1ef9-2555-475b-8a1c-e7296669cbf2.png)
 
-##removed justice tour by cliking red X button
+## removed justice tour by cliking red X button
