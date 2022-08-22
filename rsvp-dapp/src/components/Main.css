@@ -79,7 +79,7 @@
     display: block;
     font-size: 17px;
     padding: 5px;
-    color: #000;
+    color: rgb(0, 0, 0);
 }
 .eventFiled{
     width: 100%;
@@ -103,6 +103,7 @@
     border-bottom-right-radius: 3px;
     background-color: #dddddd;
     cursor: pointer;
+    background-color: rgb(239, 243, 241);
 }
 
 input[type="text"], button { 
