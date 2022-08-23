@@ -4,7 +4,7 @@ import DeployerViews from './views/DeployerViews';
 import AttacherViews from './views/AttacherViews';
 import {renderDOM, renderView} from './views/render';
 import './index.css';
-import * as backend from '../build/index.main.mjs';
+import * as backend from './build/index.main.mjs';
 import { loadStdlib } from '@reach-sh/stdlib';
 const reach = loadStdlib(process.env);
 import { ALGO_MyAlgoConnect as MyAlgoConnect } from '@reach-sh/stdlib';
