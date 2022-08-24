@@ -3,7 +3,7 @@ import AppReducer from './AppReducer';
 
 // initial state
 const initialState = {
-    events: []
+    events: [true]
 }
 
 // Create context
