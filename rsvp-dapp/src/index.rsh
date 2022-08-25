@@ -1,20 +1,46 @@
 'reach 0.1';
-'use-strict';
+
+POST = {
+  HostName: Bytes,
+  event_name_and_time: Fun([Bytes], Null),
+},
+
+const error_messg = {
+  error: "can not have empty event"
+}
 
 export const main = Reach.App(() => {
-  const A = Participant('Alice', {
-    // Specify Alice's interact interface here
-  });
-  const B = Participant('Bob', {
-    // Specify Bob's interact interface here
-  });
+
+  const system = Participant("system"{
+    ...error_messg,
+    
+  })
+  const host = API("host",{
+    ...POST
+
+  })
+
+  host.only(()=> {
+    
+    declassify(interact.event_name_and_time)
+  })
+
   init();
-  // The first one to publish deploys the contract
-  A.publish();
+
   commit();
-  // The second one to publish always attaches
-  B.publish();
-  commit();
-  // write your program here
+  if (host.publish() === Null){
+    commit();
+    system.publish()
+
+  }else{
+    commit()
+    system.only(() =>{
+      View("msg", {message: declassify(interact.error_messg)})
+
+      wager = declassify(interact.wage)
+      host.pay(wager)
+    })
+  }
+
   exit();
 });
