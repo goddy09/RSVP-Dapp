@@ -416,8 +416,6 @@ renderDOM(<App />);
 
 Congratulations on finishing the workshop. You successfully implemented the RSVP DApp on the blockchain on your own! 🥳🥳
 
-You can Play this game with your friends. 🧑‍🤝‍🧑🧑‍🤝‍🧑
-
 If you found this workshop rewarding, please let us know on the [Discord community!](https://discord.gg/AZsgcXu).
 
 If you want to know what to do next, you should checkout more [workshops](https://docs.reach.sh/tut/#tuts).
